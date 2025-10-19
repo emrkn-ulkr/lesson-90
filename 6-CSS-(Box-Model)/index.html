@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+        #header-div {
+            border: 5px solid rgb(201, 0, 0);
+            background-color: aqua;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+            width: 1600px;
+        }
+
+        #body-div {
+            border: 5px solid black;
+            height: 200px;
+            background-color: yellowgreen;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 100px;
+            width: 1600px;
+        }
+
+        #footer-div {
+            border: 5px solid purple;
+            width: 1600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            margin: 100px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<!--
+Padding = yazı ile kutu arasındaki boşluğa denir
+-->
+
+<body>
+
+    <div id="header-div">
+        Sayfanın Başı
+    </div>
+
+    <div id="body-div">
+        Sayfanın Ortası
+    </div>
+
+    <div id="footer-div">
+        Sayfanın Sonu
+    </div>
+
+</body>
+
+</html>
